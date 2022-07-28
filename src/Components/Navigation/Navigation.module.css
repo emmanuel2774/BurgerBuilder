@@ -1,0 +1,32 @@
+.NavItem {
+    margin-top: 40px;
+}
+
+
+.NavItem ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.NavItem li{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+   
+}
+
+.NavItem a {
+    color: #EBEDEF;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    opacity: 0.5;
+}
+
+.NavItem a:hover,
+.NavItem a:active{
+    opacity: 1;
+}
