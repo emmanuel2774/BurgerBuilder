@@ -1,0 +1,39 @@
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #EBEDEF;
+    font-family: 'Pacifico', cursive;
+}
+
+.spongeBobContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+@media (min-width: 800px) {
+    .spongeBobContainer {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 800px) {
+    .aboutContainer {
+        margin-top: 80px;
+    }
+}
+
+@media (min-height: 800px) {
+   .spongeBobContainer{
+    margin-top: 60px;
+   }
+}
+
+

@@ -1,0 +1,11 @@
+.BuildControls {
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #EBEDEF;
+    margin-top: 40px;
+}

@@ -26,7 +26,13 @@
     opacity: 0.5;
 }
 
-.NavItem a:hover,
-.NavItem a:active{
+a:hover{
+    opacity: 1;
+}
+
+
+
+a:active,
+a.active {
     opacity: 1;
 }

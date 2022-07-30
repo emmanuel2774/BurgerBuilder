@@ -1,12 +1,3 @@
-.homeContainer {
-    background-color: #F08037;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column; 
-}
-
 
 
 .Text {
@@ -36,15 +27,7 @@
     }
 }
 
-@media (min-width: 601px) {
-    .Text {
-        font-size: 50px;
-    }
-    
-    .buttonContainer{
-        margin-top: 80px;
-    }
-}
+
 
 @media (min-width: 800px) {
     .buttonContainer{

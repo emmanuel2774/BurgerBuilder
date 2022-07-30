@@ -1,3 +1,32 @@
+
+
 .LayoutContainer {
-    
+    background-color: #F08037;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column; 
+}
+
+ a.active{
+    opacity: 1;
+}
+
+@media (min-width: 800px) {
+    .LayoutContainer{
+        height: 100vh;
+    }
+}
+
+@media (min-height: 800px) {
+    .LayoutContainer{
+        height: 100%;
+    }
+}
+
+@media (max-height: 780px) {
+    .LayoutContainer{
+        height: 1000px;
+    }
 }
